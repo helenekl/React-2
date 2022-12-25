@@ -1,0 +1,43 @@
+.menu-item {
+    color: whitesmoke;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.25s;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.menu-item:hover {
+    color: orange;
+}
+
+.menu-sub {
+    position: absolute;
+    top: 100%;
+    background-color: black;
+    color: white;
+    width: 180px;
+    display: none;
+    z-index: 10;
+    font-weight: 300;
+}
+
+.menu-sub>div {
+    width: 100%;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.show {
+    display: block;
+}
+
+.dropdownItem {
+    padding: 5px;
+}
+
+.dropdownItem:hover {
+    color: orange;
+}

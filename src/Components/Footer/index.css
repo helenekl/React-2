@@ -1,0 +1,131 @@
+.footer {
+    height: 442px;
+    width: 100%;
+    background-color: #232323;
+    position: relative;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item1 {
+    padding-left: 120px;
+    text-align: left;
+}
+
+.FooterTittle {
+    color: #666666;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.underline {
+    width: 120px;
+    margin-left: 0px;
+}
+
+.context {
+    padding-top: 5px;
+    font-size: 13px;
+    color: orange;
+}
+
+.item2 {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.underline2 {
+    width: 280px;
+    margin-left: 0px;
+}
+
+.boxesContainer {
+    height: 300px;
+    width: 300px;
+}
+
+.boxes {
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+    background-color: #666666;
+}
+
+.item3 {
+    padding-left: 20px;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.Footertext {
+    color: #666666;
+    font-size: 13px;
+}
+
+.item4 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.form {
+    height: 360px;
+    width: 280px;
+}
+
+input {
+    background-color: #666666;
+    border: 1px solid #232323;
+    border-radius: 6px;
+    height: 28px;
+    width: 255px;
+}
+
+textarea {
+    background-color: #666666;
+    border: 1px solid #232323;
+    border-radius: 6px;
+    width: 255px;
+    height: 120px;
+}
+
+.button1 {
+    box-sizing: border-box;
+    height: 28px;
+    width: 80px;
+    background-color: orange;
+    text-align: center;
+    padding-top: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+.button1:hover {
+    background-color: rgb(189, 126, 8);
+    color: orange;
+}
+
+.button2 {
+    position: relative;
+    margin-left: 100px;
+    margin-top: -28px;
+    box-sizing: border-box;
+    height: 28px;
+    width: 80px;
+    background-color: rgb(151, 150, 150);
+    text-align: center;
+    padding-top: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+.button2:hover {
+    background-color: rgb(205, 202, 202);
+    color: #666666;
+}
